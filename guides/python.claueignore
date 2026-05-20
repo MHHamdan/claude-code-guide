@@ -1,0 +1,49 @@
+# python.claueignore — Python / Django / FastAPI projects
+# Copy to your project root as .claueignore and extend as needed
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+__pyenv__/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Build and dist
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Coverage and test artifacts
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Type stubs cache
+.pytype/
+.pyre/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Package lock files (rarely useful for Claude to read)
+poetry.lock
+uv.lock
+Pipfile.lock
+
+# Secrets
+.env
+.env.*
+secrets.json

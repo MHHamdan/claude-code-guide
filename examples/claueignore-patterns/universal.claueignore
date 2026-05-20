@@ -1,0 +1,21 @@
+# universal.claueignore — safe baseline for any project
+
+.git/
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+*.log
+logs/
